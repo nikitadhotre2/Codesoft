@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #about {
+            text-align: center;
+        }
+
+        #about img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            border: 4px solid #007bff;
+        }
+
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        #skills ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        #projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #projects div {
+            margin-bottom: 20px;
+        }
+
+        #resume a {
+            display: inline-block;
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        #resume a:hover {
+            background: #0056b3;
+        }
+
+        #contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #contact ul li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikita Dhotre</h1>
+        <p>Information Techonology</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="nikita.jpg" alt="Your Image">
+        <p>Hello! I am a passionate web developer with skills in HTML, CSS, and JavaScript. I enjoy creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C,C++</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Cyber cafe Management System </h3>
+            <img src="project.jpg" alt="Project 1">
+            <p>Cyber cafe Management system project intends to solve the problem faced by the old system. This process is intended to automate the process of data storage and data retrieval easily. The flow of project starts when a customer enquirer for the availability of Computers for working an Internet/Browsing.
+The admin checks the availability of computer and allocates the computer to the customers. Scheme facility is also been provided by our system. After the enquiry, the information of customer is given. All these records are stored in respective database.In this project an attempt is made to design a computer system for the Cyber Cafe that makes the management of recording user details, internet usage and billing much easier.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download My Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: nikitadhotre4604@gmail.com</li>
+            <li>Phone: +91 9322569189</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+</body>
+</html>

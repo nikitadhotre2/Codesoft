@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 20px;
+        }
+
+        header a {
+            display: inline-block;
+            background: #fff;
+            color: #ff7e5f;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header a:hover {
+            background: #feb47b;
+            color: #fff;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+        }
+
+        #features div {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        #features div:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        #features div img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        #testimonials {
+            text-align: center;
+        }
+
+        #testimonials p {
+            font-style: italic;
+            margin: 20px auto;
+            max-width: 700px;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Your gateway to the best services and solutions.</p>
+        <a href="#features">Explore Features</a>
+    </header>
+
+    <section id="features">
+        <h2>Our Features</h2>
+        <div>
+            <img src="f1.png" alt="Feature 1">
+            <h3>Seamless Integration</h3>
+            <p>Easily integrate our platform with your existing tools for a smooth workflow experience.</p>
+        </div>
+        <div>
+            <img src="f2.webp" alt="Feature 2">
+            <h3>Advanced Analytics</h3>
+            <p>Gain insights with our advanced analytics tools, helping you make data-driven decisions effortlessly.</p>
+        </div>
+        <div>
+            <img src="f3.jpg" alt="Feature 3">
+            <h3>24/7 Support</h3>
+            <p>Our dedicated support team is available round the clock to assist you with any queries or issues.</p>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Users Say</h2>
+        <p>"This is the best platform I have ever used! Highly recommend it." - Jane Doe</p>
+        <p>"Amazing features and excellent support. Totally worth it." - John Smith</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
